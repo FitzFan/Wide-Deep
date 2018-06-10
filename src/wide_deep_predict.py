@@ -1,8 +1,17 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""
+@Author  : Ryan Fan 
+@E-Mail  : ryanfan0528@gmail.com
+@Version : v1.0
+"""
+
 import tensorflow as tf
 import os
 import numpy as np
 
-exported_path = './tmp/census_exported/1528036408'
+exported_path = '/tmp/census_exported/1520271391'
 predictionoutputfile = 'census_output.csv'
 predictioninputfile = 'census_input.csv'
 

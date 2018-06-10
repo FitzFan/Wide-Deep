@@ -1,3 +1,12 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""
+@Author  : Ryan Fan 
+@E-Mail  : ryanfan0528@gmail.com
+@Version : v1.0
+"""
+
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
@@ -18,7 +27,7 @@ EVAL_URL = '%s/%s' % (DATA_URL, EVAL_FILE)
 parser = argparse.ArgumentParser()
 
 parser.add_argument(
-    '--data_dir', type=str, default='./tmp/census_data',
+    '--data_dir', type=str, default='/tmp/census_data',
     help='Directory to download census data')
 
 
